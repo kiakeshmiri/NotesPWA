@@ -1,0 +1,89 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.797a5d54a7bbd6011a79.js",
+        "/polyfills.c6871e56cb80756a5498.js",
+        "/runtime.ec2944dd8b20ec099bf3.js",
+        "/styles.9deca95a0833b35a4389.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/android-chrome-192x192.png",
+        "/assets/icons/android-chrome-512x512.png",
+        "/assets/icons/apple-touch-icon.png",
+        "/assets/icons/favicon-16x16.png",
+        "/assets/icons/favicon-32x32.png",
+        "/assets/icons/mstile-144x144.png",
+        "/assets/icons/mstile-150x150.png",
+        "/assets/icons/mstile-310x150.png",
+        "/assets/icons/mstile-310x310.png",
+        "/assets/icons/mstile-70x70.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "patterns": [
+        "\\/api\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 100,
+      "maxAge": 259200000,
+      "timeoutMs": 60000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/icons/android-chrome-192x192.png": "e2476342fe298b6619923e2e80126364b98468e4",
+    "/assets/icons/android-chrome-512x512.png": "62c32fe1bdb8244e1cc86d1ad855358c53abaf5a",
+    "/assets/icons/apple-touch-icon.png": "fff81e5eb1efac81c5e880720cb54a131284edef",
+    "/assets/icons/favicon-16x16.png": "a462ec285a88dfbbdfdaf6652f637d40866e5e8e",
+    "/assets/icons/favicon-32x32.png": "352a48ab58b2284fee8b730c6165c32dd4784f18",
+    "/assets/icons/mstile-144x144.png": "0c6e6a37b4eb29d864f30e0b6999a401708d1fe8",
+    "/assets/icons/mstile-150x150.png": "3d7c4b8442d87f0e68e4aa12599a6ed17558ed2b",
+    "/assets/icons/mstile-310x150.png": "36eeb903a851584375fe128c9a998192af560367",
+    "/assets/icons/mstile-310x310.png": "11a875286114142f3819fb946d298999c9bcb365",
+    "/assets/icons/mstile-70x70.png": "75ddd4d99d61df5be2536ae4ed84b34fdba77e3a",
+    "/favicon.ico": "030ffa24aa018bf8109b37ffdc4dacabcb236124",
+    "/index.html": "54752dd6b9459217ca16305e6572c00c8865f1ef",
+    "/main.797a5d54a7bbd6011a79.js": "2bdc9c06bd217fd178d7f2de2b49e0dfcdfbc9bc",
+    "/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/styles.9deca95a0833b35a4389.css": "ecee583eb600ffd886f8a3557b31f8b2771b0f4e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
