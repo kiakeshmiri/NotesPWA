@@ -1,10 +1,10 @@
 ﻿# Notes PWA
 
-AnularJS + Dotnetcore + PWA Demo
+Anular + Dotnetcore + PWA Demo
 
 ## Purpose
 
-Demonstrating How AngularJS 7 can consume .Net Core WebAPI . This application conatains logic ans appropiate settings to be used as Progressive Web App.
+Demonstrating How Angular 7 can consume .Net Core WebAPI . This application conatains logic ans appropiate settings to be used as Progressive Web App.
 
 This application uses RxJS Subjects for transfering asynchronous data between components.
 
