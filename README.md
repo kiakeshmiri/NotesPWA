@@ -16,6 +16,10 @@ ngsw-config.json (ClientApp folder)
 
 In order to be able to run and test this app, it should be deployed in production mode. by running ...npm run build... compiled Angular code will be pushed to wwwroot folder and you don't have to worry about CORS setup.
 
+## NGXS
+
+State management moved to [NGXS](https://github.com/ngxs/store) library. NGXS is built for Angular rather than Redux that originally was written for React.
+
 ### Prerequisites
 All the installations instructructions works on all supported platforms as server and it can run on desktop, android, ios as a native app.
 
